@@ -1,0 +1,10 @@
+<p>jobs works!</p>
+<ul>
+	<li *ngFor="let work of works">
+		<article>
+			{{work.image}}
+			<h2>{{work.workplace | uppercase}}</h2>
+			<h3>{{work.job_title}}</h3>
+		</article>
+	</li>
+</ul>

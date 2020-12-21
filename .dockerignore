@@ -1,0 +1,8 @@
+node_modules/
+.editorconfig
+.gitignore
+.package-lock.json
+dockerfile
+*.md
+dist/
+coverage/

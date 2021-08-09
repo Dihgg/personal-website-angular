@@ -5,7 +5,7 @@
     "ng": "ng",
     "dev": "ng build --aot --watch",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --configuration production",
     "test": "ng test --detect-open-handles",
     "coverage": "npm test -- --coverage",
     "lint": "ng lint"

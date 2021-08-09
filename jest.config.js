@@ -1,4 +1,4 @@
-var preset = require("jest-preset-angular/jest-preset");
+const preset = require("jest-preset-angular/jest-preset");
 module.exports = {
     ...preset,
     preset: "jest-preset-angular",

@@ -6,8 +6,8 @@
     "dev": "ng build --aot --watch",
     "start": "ng serve",
     "build": "ng build --prod",
-    "test": "ng test --detectOpenHandles",
-    "coverage": "ng test --coverage --detectOpenHandles",
+    "test": "ng test --detect-open-handles",
+    "coverage": "npm test -- --coverage",
     "lint": "ng lint"
   },
   "private": true,
